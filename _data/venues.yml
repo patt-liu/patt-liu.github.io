@@ -1,6 +1,12 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# "AJP":
+#   url: https://aapt.scitation.org/journal/ajp
+#   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+# "PhysRev":
+#   url: https://journals.aps.org/
+
+"RegML":
+  url: https://regulatableml.github.io
+
+"ISSCC":
+  url: https://www.isscc.org
