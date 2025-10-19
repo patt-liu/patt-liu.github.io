@@ -42,7 +42,10 @@ layout: default
   <article class="post-content">
     {% if page.toc and page.toc.beginning %}
     <div id="table-of-contents">
-      {% toc %}
+      <!-- jekyll-toc plugin tag replaced with client-side TOC placeholder
+           GitHub Pages does not support arbitrary plugins like jekyll-toc; populate
+           this nav on the client using assets/js/bootstrap-toc.min.js -->
+      <nav id="toc-sidebar" data-toggle="toc"></nav>
     </div>
     <hr>
     {% endif %}
