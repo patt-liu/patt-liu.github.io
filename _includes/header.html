@@ -85,7 +85,11 @@
               </li>
               {%- else %}
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
-                <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
+                {%- assign is_cv = false -%}
+                {%- if p.permalink == '/cv/' or p.url == '/cv/' or p.title == 'cv' -%}
+                  {%- assign is_cv = true -%}
+                {%- endif -%}
+                <a class="nav-link" href="{{ p.url | relative_url }}" {% if is_cv %}target="_blank" rel="noopener"{% endif %}>{{ p.title }}
                   {%- if page.title == p.title -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
