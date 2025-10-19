@@ -1,11 +1,6 @@
 # Tell github-metadata which repo this is:
 repository: patt-liu/patt-liu.github.io
 
-# For a USER/ORG site, baseurl must be empty:
-baseurl: ""
-
-# Your site’s canonical URL (use your custom domain if you want):
-url: "https://pattyliu.com"
 
 # -----------------------------------------------------------------------------
 # Site settings
