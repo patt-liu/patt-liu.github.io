@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 4th year Engineering Science Student at the University of Toronto.
+subtitle: second year CS PhD student at Princeton University
 
 profile:
   align: right
@@ -16,7 +16,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! I’m Patty, a final year Engineering Science student at the University of Toronto. I am interested in trustworthy machine learning and machine learning applications in healthcare.
+Hello! I’m Patty, a second year PhD student in Computer Science at Princeton University the Center for Information Technology Policy (CITP) advised by Prof. [Peter Henderson](https://www.peterhenderson.co). I am interested in the ethics of algorithmic systems in assisting decisionmaking, both in understanding the impacts of these systems on society and in building systems that align with specific groups' needs.  
+
+Before Princeton, I graduated with a BASc in Engineering Science Machine Intelligence from the University of Toronto in 2024. I interned at the Vector Institute advised by Prof. [Nicolas Papernot](https://www.papernot.fr) and Prof. [Rahul G. Krishnan](https://www.cs.toronto.edu/~rahulgk/). I worked on topics related to fairness and privacy in Machine Learning, as well as Machine Learning applications in healthcare. 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
