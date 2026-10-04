@@ -1,0 +1,73 @@
+# Photos shown on the photography page (_pages/photography.md), newest first by date.
+# Images live in assets/img/photography/. Only `image` is required; the other fields
+# are shown under the photo when someone clicks on it, and left out if blank.
+#
+# - image: 1.jpg                  # file name inside assets/img/photography/
+#   date: June, 2023              # "June, 2023", "June 2023" or just "2023"
+#   location: Vancouver, BC       # where it was taken
+#   description: Sunset at the beach
+
+- image: 1.jpg                  # file name inside assets/img/photography/
+  date: July, 2025              # "June, 2023", "June 2023" or just "2023"
+  location: Athens, Greece       # where it was taken
+  description: Sunrise over the Acropolis of Athens.
+
+- image: 2.jpg                  
+  date: June, 2024              
+  location: Lisbon, Portugal       
+  description:
+
+- image: 3.jpg                  
+  date: June, 2024              
+  location: Athens, Greece      
+  description: Stadium.
+
+- image: 4.jpg                  
+  date: July, 2024              
+  location: South Tyrol, Italy   
+  description:
+
+- image: 5.jpg                  
+  date: July, 2025              
+  location: Istanbul, Turkey  
+  description: Galata Tower.
+
+- image: 6.jpg                  
+  date: July, 2024             
+  location: South Tyrol, Italy  
+  description:
+
+- image: 7.jpg                  
+  date: July, 2023             
+  location: Vancouver, BC, Canada  
+  description:
+
+- image: 8.jpg                  
+  date: June, 2024             
+  location: Lisbon, Portugal 
+  description:
+
+- image: 9.jpg                  
+  date: July, 2024             
+  location: Meteora, Greece
+  description:
+
+- image: 10.jpg                  
+  date: July, 2024             
+  location: Florence, Italy
+  description:
+
+- image: 11.jpg                  
+  date: August, 2023             
+  location: Cambridge, UK
+  description:
+
+- image: 12.jpg                  
+  date: September, 2023             
+  location: Zurich, Switzerland
+  description:
+
+- image: 13.jpg                  
+  date: July, 2026             
+  location: Prince Edward Island, Canada
+  description:

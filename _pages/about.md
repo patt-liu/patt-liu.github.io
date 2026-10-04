@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: '<span style="color: #9b9b9b;">second year CS PhD student at Princeton University</span>'
+subtitle: '<span style="color: #9b9b9b;">third year CS PhD student at Princeton University</span>'
 
 profile:
   align: right
@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! I’m Patty, a second year PhD student in Computer Science at Princeton University the [Center for Information Technology Policy (CITP)](https://citp.princeton.edu) advised by Prof. [Peter Henderson](https://www.peterhenderson.co). I am interested in the ethics of algorithmic systems in assisting decisionmaking, both in understanding the impacts of these systems on society and in building systems that align with specific groups' needs.  
+Hello! I’m Patty, a third year PhD student in Computer Science at Princeton University the [Center for Information Technology Policy (CITP)](https://citp.princeton.edu) advised by Prof. [Peter Henderson](https://www.peterhenderson.co). I am interested in the ethics of algorithmic systems in assisting decision making, both in understanding the impacts of these systems on society and in building systems that align with specific groups' needs. Recently I have worked on projects at the intersection of AI and law, in particular understanding how AI tools can empower lawyers and studying the risks of wide AI adoption in the legal system.
 
 Before Princeton, I graduated with a BASc in Engineering Science Machine Intelligence from the University of Toronto in 2024. I interned at the Vector Institute advised by Prof. [Nicolas Papernot](https://www.papernot.fr) and Prof. [Rahul G. Krishnan](https://www.cs.toronto.edu/~rahulgk/). I worked on topics related to fairness and privacy in Machine Learning, as well as Machine Learning applications in healthcare. 
 

@@ -1,0 +1,69 @@
+# Artwork shown on the art page (_pages/art.md), newest first by date.
+# Pieces can be listed in any order; ones with the same date keep this order.
+# Images live in assets/img/art/. Only `image` is required; the other fields
+# are shown under the piece when someone clicks on it, and left out if blank.
+#
+# - image: 1.jpg                  # file name inside assets/img/art/
+#   date: June, 2023              # "June, 2023", "June 2023" or just "2023"
+#   material: gouache             # e.g. gouache, watercolor, ink, digital
+#   description: A 1 hour study   # short caption
+
+- image: 1.jpg
+  date: June, 2018
+  material: oil pastel on paper
+  description:
+
+- image: 2.jpg
+  date: October, 2018
+  material: acrylic and pastel on paper
+  description: David's hand holding a paint brush.
+
+- image: 3.jpg
+  date: August, 2022
+  material: digital art
+  description: Characters from our DnD campaign.
+
+- image: 4.jpg
+  date: June, 2023
+  material: ink on paper
+  description: Mountain range in South Tyrol.
+
+- image: 5.jpg
+  date: May, 2024
+  material: oil pastel on paper
+  description:
+
+- image: 6.jpg
+  date: May, 2024
+  material: digital art
+  description:
+
+- image: 7.jpg
+  date: February, 2025
+  material: watercolor on paper
+  description: Winter landscape in the Dolomites.
+
+- image: 8.jpg
+  date: February, 2026
+  material: pencil crayon on paper
+  description: Garden of Istanbul Archaeological Museums. 
+
+- image: 9.jpg
+  date: February, 2026
+  material: gouache on paper
+  description: Mountain range in South Tyrol.
+
+- image: 10.jpg
+  date: July, 2023
+  material: ink on paper
+  description: Jug island 
+
+- image: 11.jpg
+  date: September, 2018
+  material: acrylic on canvas
+  description: Baroque style object study (with a toy dinosaur!)
+
+- image: 12.jpg
+  date: February, 2025
+  material: watercolour on paper
+  description: Stanley park in Vancouver.
