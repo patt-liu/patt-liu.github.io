@@ -623,6 +623,139 @@ footer.sticky-bottom {
 }
 
 
+// Art and photography galleries (_includes/gallery.html)
+
+.gallery {
+  .grid-item {
+    width: 250px;
+    margin-bottom: 10px;
+  }
+
+  .gallery-thumb {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: zoom-in;
+
+    img {
+      display: block;
+      width: 100%;
+      border-radius: 4px;
+    }
+  }
+
+  // Date, material/location and description, shown when hovering a piece
+  .gallery-caption {
+    position: absolute;
+    inset: auto 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    padding: 2rem 0.75rem 0.6rem;
+    border-radius: 0 0 4px 4px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    color: #fff;
+    font-size: 0.85rem;
+    line-height: 1.3;
+    text-align: left;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+  }
+
+  .gallery-caption-meta {
+    color: #ddd;
+    font-size: 0.75rem;
+  }
+
+  .gallery-thumb:hover .gallery-caption,
+  .gallery-thumb:focus-visible .gallery-caption {
+    opacity: 1;
+  }
+}
+
+.gallery-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.88);
+
+  &[hidden] {
+    display: none;
+  }
+
+  figure {
+    margin: 0;
+    max-width: min(90vw, 1100px);
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 78vh;
+    object-fit: contain;
+  }
+
+  figcaption {
+    margin-top: 0.75rem;
+    color: #eee;
+
+    p {
+      margin: 0.25rem 0;
+    }
+  }
+
+  .gallery-meta {
+    font-size: 0.9rem;
+    color: #bbb;
+  }
+
+  button {
+    border: 0;
+    background: none;
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 1;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    opacity: 0.8;
+
+    &:hover,
+    &:focus-visible {
+      opacity: 1;
+    }
+  }
+
+  .gallery-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.75rem;
+  }
+
+  .gallery-prev,
+  .gallery-next {
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 576px) {
+    .gallery-prev,
+    .gallery-next {
+      position: absolute;
+      bottom: 0.5rem;
+    }
+    .gallery-prev { left: 1rem; }
+    .gallery-next { right: 1rem; }
+  }
+}
+
+
 // Publications
 
 .publications {
