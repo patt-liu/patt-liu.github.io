@@ -20,6 +20,7 @@ Hello! I’m Patty, a third year PhD student in Computer Science at Princeton Un
 
 Before Princeton, I graduated with a BASc in Engineering Science Machine Intelligence from the University of Toronto in 2024. I interned at the Vector Institute advised by Prof. [Nicolas Papernot](https://www.papernot.fr) and Prof. [Rahul G. Krishnan](https://www.cs.toronto.edu/~rahulgk/). I worked on topics related to fairness and privacy in Machine Learning, as well as Machine Learning applications in healthcare. 
 
+
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
